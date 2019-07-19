@@ -1,0 +1,7 @@
+# You can delete this, it's just to give an example .env file
+API_PORT=3000
+DEBUG=*,-express:*
+DEBUG_COLORS=true
+DB_URL=mongodb://localhost:27017/testDb
+ENVIRONMENT=dev
+DEBUG_LOGGING=false
