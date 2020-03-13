@@ -7,4 +7,4 @@ exports.write = function(input) {
   if (isDev || logging) {
     return debug(input);
   }
-}
+};
