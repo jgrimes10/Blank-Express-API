@@ -46,3 +46,6 @@ app.use('/users', userRoute);
 app.listen(apiPort, () => {
   debug.write(`API listening on port ${apiPort}`);
 });
+
+// export app for testing purposes
+module.exports = app;
